@@ -1,5 +1,6 @@
 # Leaflet.simplePegman
 Simple pluggin for Leaflet to add Google pegman/street view function
+
 A shamelfull fork from Raruto/leaflet-pegman
 
 ## Démo page
