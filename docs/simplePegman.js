@@ -251,7 +251,7 @@ L.Control.Pegman = L.Control.extend({
 		this._pegmanMarker.setTooltipContent('StreetView va s\'ouvrir dans un nouvel onglet');
 		var tooltip = this._pegmanMarker;
 		setTimeout(function(){
-			//window.open('https://www.google.com/maps?layer=c&cbll=' + lat + ',' + lng + '');
+			window.open('https://www.google.com/maps?layer=c&cbll=' + lat + ',' + lng + '');
 			tooltip.setTooltipContent('Vous pouvez me déplacer ou<br />me cliquer pour me supprimer');
 		},1250);
 	},
